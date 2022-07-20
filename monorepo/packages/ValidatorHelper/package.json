@@ -1,0 +1,19 @@
+{
+  "name": "@monorepo/validatorhelper",
+  "version": "1.0.0",
+  "main": "bin/index.js",
+  "scripts": {
+    "compile": "tsc -b",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "types": "./bin\\index.d.ts",
+  "bin": {
+    "validatorhelper": "bin/index.js"
+  },
+  "description": "",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
